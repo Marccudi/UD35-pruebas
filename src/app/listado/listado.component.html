@@ -1,0 +1,15 @@
+<div class="container">
+  <h1 class="text-center mt-5">Lista</h1>
+  <div class="row">
+    <div class="col text-center">
+      <table class="table">
+      <tr *ngFor="let cli of datos">
+        <td>{{cli.nombre}}</td>
+        <td>{{cli.mail}}</td>
+        <td>{{cli.mensaje}}</td>
+        <hr>
+      </tr>
+      </table>
+    </div>
+  </div>
+</div>
